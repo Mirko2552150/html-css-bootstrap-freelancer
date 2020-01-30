@@ -3,7 +3,7 @@
 .fix {
     position: fixed;
     width: 100%;
-
+    z-index: 999;
 }
 
 /* forse ridondante, chiedere */
@@ -67,6 +67,7 @@ nav {
 .imgstar {
     margin: 0 auto;
     width: 250px;
+    padding-top: 100px;
 
 }
 
@@ -115,4 +116,23 @@ nav {
 
 .subtitlestar {
     padding-bottom: 100px;
+}
+
+/* NB NB NB INIZIO  */
+
+.portfolio {
+
+}
+
+.blu {
+
+    color: #2c3e50;
+}
+
+.bluuno {
+    border-bottom: 4px solid #2c3e50;
+}
+
+.image {
+    height: 200px;
 }
