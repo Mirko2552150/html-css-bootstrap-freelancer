@@ -1,0 +1,53 @@
+.fix {
+    position: fixed;
+    width: 100%;
+
+}
+
+/* forse ridondante, chiedere */
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title {
+    float: left;
+    width: 50%;
+}
+
+.navlist {
+    float: left;
+    width: 50%;
+
+}
+
+.navlist ul {
+    text-align: right;
+
+}
+
+.navlist ul li a {
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.navlist ul li a:hover {
+    color: #1abc9c;
+    text-decoration: none;
+
+}
+
+nav {
+    line-height: 80px;
+
+}
+
+.blue {
+    background-color: #2c3e50;
+}
+
+body {
+    color: white;
+}
