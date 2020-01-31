@@ -145,7 +145,7 @@ body {
 }
 
 .white {
-    background-color: pink;
+    background-color: white;
     /* NB TOGLIERE */
 }
 
@@ -174,4 +174,10 @@ body {
 .ultimo {
     margin-top: 20px;
     margin-bottom: 100px;
+}
+
+.darkblue {
+    background-color: #1a252f;
+    /* Da rimuovere */
+    height: 50px;
 }
