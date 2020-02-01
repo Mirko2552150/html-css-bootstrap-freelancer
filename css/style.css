@@ -73,6 +73,7 @@ body {
 .green {
     padding-top: 90px;
     background-color: #1abc9c;
+    padding: 0;
 }
 
 .imgstar {
@@ -145,6 +146,7 @@ body {
 }
 
 .white {
+    padding-bottom: 100px;
     background-color: white;
     /* NB TOGLIERE */
 }
@@ -161,10 +163,13 @@ body {
 
 /* NB NB NB INIZIO TERZO NB NB NB */
 
-.trasparente {
+.btn-primary {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: white;
     display: block;
     margin: 0 auto;
     width: 200px;
+    background-color: none;
 }
 
 .trasparente i {
@@ -176,8 +181,58 @@ body {
     margin-bottom: 100px;
 }
 
+
 .darkblue {
     background-color: #1a252f;
     /* Da rimuovere */
-    height: 50px;
+
+}
+
+#compil {
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+
+.input-lg {
+    border: none;
+    font-size: 25px;
+}
+
+#send {
+    margin-top: 50px;
+    background-color: #1abc9c;
+    width: 120px;
+    height: 70px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+#textarea {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.foot {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container-fluid .blue {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.iconeblue {
+    font-size: 25px;
+}
+
+.iconeblue i {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+form {
+    margin-right: 200px;
 }
