@@ -28,43 +28,60 @@ body {
 
 /*  NB NB NB INIZIO FIX NB  NB NB */
 
-.title {
-    float: left;
-    width: 50%;
+.max {
+    max-width: 1170px;
 }
 
-.navlist {
-    float: left;
-    width: 50%;
-
-}
-
-.title h1 {
-    margin: 0;
-    line-height: 60px;
-}
-
-.navlist ul {
-    text-align: right;
-    margin: 0;
-    line-height: 60px;
-
-}
-
-.navlist ul li a {
-    color: white;
-    font-weight: bold;
-    margin-left: 15px;
-}
-
-.navlist ul li a:hover {
-    color: #1abc9c;
-    text-decoration: none;
-
-}
-
-.blue {
+.navbar {
     background-color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    line-height: 64.2px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navbar h1 {
+    color: white;
+    margin-top: 15px;
+}
+
+.navbar-header {
+    line-height: 64.2px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav {
+    line-height: 72px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+
+
+
+.collapse.navbar-collapse ul li a:hover {
+    color: #1abc9c;
+
+}
+
+.menu {
+    float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-toggle {
+        margin-top: 15px;
+
+    }
 }
 
 /* NB NB NB INIZIO ROW STAR NB NB NB */
@@ -235,4 +252,12 @@ body {
 
 form {
     margin-right: 200px;
+}
+
+.venticinque {
+    font-size: 25px;
+}
+
+a {
+    color: #1abc9c;
 }
