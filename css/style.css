@@ -303,5 +303,9 @@ form {
     .input-lg {
         text-align: center;
     }
-
-}
+/* CHIEDERE COME TOGLIERE IL VERDE CHE ESCE DAL BORDO DELLE IMG */
+/* CHIEDERE IN MODALITA TABLET 2 COLONNE ERRORE */
+/* CHIDERE GIOCO LATERALE MODALITA MOBILE */
+    .overlay {
+        background: none;
+    }
