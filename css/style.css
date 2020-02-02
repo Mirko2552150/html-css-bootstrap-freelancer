@@ -287,8 +287,9 @@ form {
     }
 
     #round {
-        padding: 30px;
-        border-radius: 42px;
+        /* padding: 30px;
+        border-radius: 42px; */
+        margin-top: 10px;
 
     }
 
@@ -302,10 +303,24 @@ form {
 
     .input-lg {
         text-align: center;
+
+
     }
-/* CHIEDERE COME TOGLIERE IL VERDE CHE ESCE DAL BORDO DELLE IMG */
+/* CHIEDERE COME TOGLIERE IL VERDE "OVERLAY" CHE ESCE DAL BORDO DELLE IMG */
 /* CHIEDERE IN MODALITA TABLET 2 COLONNE ERRORE */
 /* CHIDERE GIOCO LATERALE MODALITA MOBILE */
-    .overlay {
+    /* .overlay {
         background: none;
+    } */
+
+}
+
+@media screen and (min-width:768px) and (max-width: 992px)  {
+    .center-block {
+        margin-bottom: 40px;
     }
+
+    #round {
+        margin-top: 10px;
+    }
+}
